@@ -1,0 +1,30 @@
+.text {
+color: rgb(228, 210, 210);
+text-align: justify;
+font-size: 18px;
+margin-left: 50px;
+width: 550px;
+display:block;
+animation: slideIn 1s ease-in-out;
+}
+
+.headline{
+color: rgb(196, 93, 93);
+text-align: left;
+font-size: 30px;
+margin-left: 20px;
+width: 500px;
+animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
